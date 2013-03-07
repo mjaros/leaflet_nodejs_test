@@ -1,0 +1,9 @@
+{
+  "name": "leaflet_nodejs",
+  "description": "Testing Leaflet with NodeJS",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "connect": "2.7.3"
+  }
+}
