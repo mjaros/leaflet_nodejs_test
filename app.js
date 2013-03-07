@@ -35,7 +35,7 @@ function startHTTPServer() {
   var app = connect()
     .use(connect.logger({stream: httpLogFile}))
     .use(connect.static('public'));
-  httpServer = http.createServer(app).listen(8000);
+  httpServer = http.createServer(app).listen(8002);
   log('HTTP Server started');
 }
 
