@@ -5,9 +5,6 @@ var osmLayer = new L.tileLayer(osmUrl, {attribution: osmAttribution});
 var map = L.map(
   'map',
   {
-    closePopupOnClick: true,
-    markerZoomAnimation: false,
-    zoomAnimation: false,
     worldCopyJump: true,
     maxZoom: 17,
     minZoom: 10
